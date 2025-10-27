@@ -1,39 +1,36 @@
-# ticket-management-web-app-vue
+# Ticket Management Web App
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern **Ticket Management Web Application** built with **Nuxt.js** that allows users to create, edit, and manage support tickets efficiently.  
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
 
-## Recommended Browser Setup
+-  **Authentication Simulation**
+  - Login and signup are handled using `localStorage` (key: `ticketapp_session`).
+  - After successful authentication, users are redirected to the dashboard.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- **Dashboard**
+  - Displays an overview of user tickets.
+  - Clean, responsive layout using Tailwind CSS.
 
-## Customize configuration
+- **Ticket Management**
+  - View all existing tickets.
+  - Edit ticket details inside a modal with smooth background blur.
+  - Delete tickets with confirmation prompts.
+  - Automatically updates ticket information on save.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Other Features**
+  - Status, priority, and assignee filters (UI-ready).
+  - Intuitive and user-friendly interface.
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## 🧠 Tech Stack
 
-### Compile and Hot-Reload for Development
+- **Framework:** [Nuxt.js]
+- **Styling:** [Tailwind CSS]
+- **Language:** JavaScript
+- **Icons:** Material Symbols (Google Icons)
 
-```sh
-npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-# Ticket-Management-Web-App-Vue
